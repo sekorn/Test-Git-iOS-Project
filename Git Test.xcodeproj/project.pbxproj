@@ -21,6 +21,7 @@
 		B683192D18CEA4B00017C5E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B683190F18CEA4B00017C5E0 /* UIKit.framework */; };
 		B683193518CEA4B00017C5E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B683193318CEA4B00017C5E0 /* InfoPlist.strings */; };
 		B683193718CEA4B00017C5E0 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B683193618CEA4B00017C5E0 /* Git_TestTests.m */; };
+		B683194218CEA7EC0017C5E0 /* SKTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B683194118CEA7EC0017C5E0 /* SKTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		B683193218CEA4B00017C5E0 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		B683193418CEA4B00017C5E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B683193618CEA4B00017C5E0 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		B683194018CEA7EC0017C5E0 /* SKTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTest.h; sourceTree = "<group>"; };
+		B683194118CEA7EC0017C5E0 /* SKTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				B683192118CEA4B00017C5E0 /* SKViewController.m */,
 				B683192318CEA4B00017C5E0 /* Images.xcassets */,
 				B683191218CEA4B00017C5E0 /* Supporting Files */,
+				B683194018CEA7EC0017C5E0 /* SKTest.h */,
+				B683194118CEA7EC0017C5E0 /* SKTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B683191C18CEA4B00017C5E0 /* SKAppDelegate.m in Sources */,
+				B683194218CEA7EC0017C5E0 /* SKTest.m in Sources */,
 				B683192218CEA4B00017C5E0 /* SKViewController.m in Sources */,
 				B683191818CEA4B00017C5E0 /* main.m in Sources */,
 			);
